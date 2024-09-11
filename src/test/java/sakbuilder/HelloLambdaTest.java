@@ -7,6 +7,7 @@ public class HelloLambdaTest {
     @Test
     void testHandleRequest() {
         var sut = new HelloLambda();
-        assertEquals("hello !", sut.handleRequest(""));
+        assertEquals("i am sakbuilder", sut.handleRequest());
+
     }
 }
